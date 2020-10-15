@@ -39,13 +39,13 @@ export default class SetNickname extends React.Component {
 
     return (
       <div id='set-nickname' className='container'>
-        <h3>{created ? 'Creating ' : null}{roomName}</h3>
+        <h3>{created ? 'Création de  ' : null}{roomName}</h3>
         <h5>Choisir un surnom :</h5>
         <form onSubmit={(e) => {e.preventDefault(); this.onSetNickname(nickname)}}>
           <div>
             <input
               type='text'
-              placeholder='Pouette'
+              placeholder='Votre surnom'
               value={this.state.roomValue}
               onChange={evt => this.onChange(evt)}
               required
