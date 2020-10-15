@@ -17,7 +17,7 @@ export default (props) => {
         className='button-primary'
         onClick={onRequestPerms}
       >
-       Autorisé l'accès Caméra/Micro
+       Autoriser l'accès Caméra/Micro
       </button>
     </div>
   )
