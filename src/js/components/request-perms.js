@@ -9,7 +9,7 @@ export default (props) => {
       <h3>{created ? 'Creating ' : null}{roomName}</h3>
       {
         !created ? (
-          <h5>You are about to join a video call.</h5>
+          <h5>Tu es sur le point de rejoindre un appel vidéo.</h5>
         ): null
       }
       <button
@@ -17,7 +17,7 @@ export default (props) => {
         className='button-primary'
         onClick={onRequestPerms}
       >
-        Allow mic/cam access
+       Autorisé l'accès Caméra/Micro
       </button>
     </div>
   )

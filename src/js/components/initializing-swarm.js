@@ -5,7 +5,7 @@ export default (props) => {
 
   return (
     <div id='initializing-swarm' className='hero container'>
-      <LoadingIndicator>Connecting</LoadingIndicator>
+      <LoadingIndicator>Connection</LoadingIndicator>
     </div>
   )
 

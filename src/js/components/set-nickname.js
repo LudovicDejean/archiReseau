@@ -40,12 +40,12 @@ export default class SetNickname extends React.Component {
     return (
       <div id='set-nickname' className='container'>
         <h3>{created ? 'Creating ' : null}{roomName}</h3>
-        <h5>Set a nickname:</h5>
+        <h5>Choisir un surnom :</h5>
         <form onSubmit={(e) => {e.preventDefault(); this.onSetNickname(nickname)}}>
           <div>
             <input
               type='text'
-              placeholder='e.g. tom'
+              placeholder='Pouette'
               value={this.state.roomValue}
               onChange={evt => this.onChange(evt)}
               required
@@ -57,7 +57,7 @@ export default class SetNickname extends React.Component {
               type='submit'
               className='button-primary'
             >
-              Join Video Call
+              Rejoindre l'appel vidéo
             </button>
           </div>
         </form>
