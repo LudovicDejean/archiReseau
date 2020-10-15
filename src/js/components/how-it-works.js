@@ -6,27 +6,27 @@ export default (props) => {
   return (
     <div className='features how-it-works'>
       <div className='container'>
-        <h3>How it works</h3>
+        <h3>Comment ça marche ?</h3>
         <div className='row'>
           <div className='four columns'>
             <div className='feature'>
-              <div className='feature-title'>Create a room</div>
+              <div className='feature-title'>Création d'un appel</div>
               <PlusSquare size={35} />
-              <div className='feature-text'>Choose a human-readable room name, such as the purpose of the meeting.</div>
+              <div className='feature-text'>Choisir le nom de l'appel</div>
             </div>
           </div>
           <div className='four columns'>
             <div className='feature'>
-              <div className='feature-title'>Share the link</div>
+              <div className='feature-title'>Partage le lien</div>
               <Send size={35} />
-              <div className='feature-text'>Send the link to your guests via email, chat, or any other means.</div>
+              <div className='feature-text'>Envoie le lien aux autres participants par Mail, SMS, Discord ou ce que tu préfères</div>
             </div>
           </div>
           <div className='four columns'>
             <div className='feature'>
               <div className='feature-title'>Chat!</div>
               <Video size={35} />
-              <div className='feature-text'>Chat to your guests over a secure, encrypted, peer-to-peer connection.</div>
+              <div className='feature-text'>Parles à tes amis en P2P</div>
             </div>
           </div>
         </div>

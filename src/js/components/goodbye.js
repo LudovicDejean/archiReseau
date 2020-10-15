@@ -10,7 +10,7 @@ export default () => {
         href="/"
         className='button button-primary home-button'
       >
-        Home
+        Accueil
       </a>
     </div>
   )
