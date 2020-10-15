@@ -6,7 +6,7 @@ export default (props) => {
 
   return (
     <div id='request-perms' className='container'>
-      <h3>{created ? 'Creating ' : null}{roomName}</h3>
+      <h3>{created ? 'Création de ' : null}{roomName}</h3>
       {
         !created ? (
           <h5>Tu es sur le point de rejoindre un appel vidéo.</h5>
