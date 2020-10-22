@@ -9,7 +9,7 @@ export default (props) => {
   return (
     <div id='chat-header'>
       <a id='brand' href='/'>
-        <Share2 id='brand-logo' />
+        <img src=".\img\favicon.png" width="24" height="24" id='brand-logo' />
         <span id='brand-text'>Archi Réseau</span>
       </a>
       {roomName ? <span id='room-name'>{roomName}</span> : null}
