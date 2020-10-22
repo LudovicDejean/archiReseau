@@ -218,12 +218,12 @@ form input[type="text"]:nth-child(1){
   transition-duration:1s;
 }
 
-form:hover input[type="text"]:nth-child(1){
+#create-room form:hover input[type="text"]:nth-child(1){
   margin-top: 5vh;
   transition-duration:1s;
 }
 
-form:hover button[type="submit"].button-primary{
+#create-room form:hover button[type="submit"].button-primary{
   background-color: #9e5616;
   border-color: #9e5616; 
   width: 20vw;
