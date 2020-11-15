@@ -13,6 +13,7 @@ export default (props) => {
         ): null
       }
       <button
+        class="btn-one"
         type='button'
         className='button-primary'
         onClick={onRequestPerms}
