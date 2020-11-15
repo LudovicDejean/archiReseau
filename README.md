@@ -24,8 +24,8 @@ Il y a deux containers qui font office de "pages" appellant chacun les "componen
 La présentation pour la home.js
 Les composants de tchat pour chat.js
 
-# b) Connection p2p
+# b) Connexion p2p
     config: { iceServers: [ { urls: 'stun:stun.l.google.com:19302' } ] } // dans chat.js ligne 77
 
-Cette config permet d'utiliser un STUN server de google qui est libre d'accès pour permettre d'établir la connection entre les deux pears si ils ne sont pas sur le même réseau. Cela permets de contourner les difficultés lié au NAT.
-Le STUN server n'héberge pas la connection, il permet juste de contourner les problématiques réseaux.
+Cette config permet d'utiliser un STUN server de google qui est libre d'accès pour permettre d'établir la connexion entre les deux pears si ils ne sont pas sur le même réseau. Cela permets de contourner les difficultés lié au NAT.
+Le STUN server n'héberge pas la connexion, il permet juste de contourner les problématiques réseaux.
