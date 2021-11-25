@@ -4,14 +4,15 @@
   "description": "P2P Video Chat",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --config webpack.config.js --port 3001 --hot --inline --history-api-fallback",
+    "start": "webpack-dev-server --config webpack.config.js --port 3001 --hot --inline --history-api-fallback",
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.js"
   },
-  "author": "Ludovic Dejean and Thomas Peytavin",
+  "author": "Tom Watson <p2pchat@tomjwatson.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/LudovicDejean/archiReseau.git"
+    "url": "git://github.com/tom-james-watson/p2p.chat.git"
   },
   "browserslist": [
     "> 1%",
@@ -48,11 +49,12 @@
     "eslint-config-tomjwatson": "^0.1.0",
     "media-recorder-stream": "^2.1.1",
     "query-string": "^6.0.0",
-    "react-addons-shallow-compare": "^15.6.2",
+    "react-addons-shallow-compare": "^15.6.3",
     "react-feather": "^1.1.0",
     "shorthash": "0.0.2",
     "signalhub": "^4.9.0",
     "uglifyjs-webpack-plugin": "^1.0.1",
-    "uuid": "^3.2.1"
+    "uuid": "^3.2.1",
+    "webrtc-swarm": "github:tom-james-watson/webrtc-swarm"
   }
 }
