@@ -4,7 +4,7 @@ export default (props) => {
 
   return (
     <div className='container hero'>
-      <h1>Sparta Cam</h1>
+      <h1>Visio +</h1>
     </div>
   )
 

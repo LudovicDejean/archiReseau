@@ -19,7 +19,7 @@ export default (props) => {
             <div className='feature'>
               <div className='feature-title'>Partage le lien</div>
               <Send size={35} />
-              <div className='feature-text'>Envoie le lien aux autres participants par Mail, SMS, Discord ou ce que tu préfères</div>
+              <div className='feature-text'>Envoie le lien aux autres participants par Mail, SMS, Discord ou ce que vous préférez</div>
             </div>
           </div>
           <div className='four columns'>
