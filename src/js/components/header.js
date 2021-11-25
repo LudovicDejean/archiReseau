@@ -10,7 +10,7 @@ export default (props) => {
     <div id='chat-header'>
       <a id='brand' href='/'>
         <img src="..\img\favicon.png" width="24" height="24" id='brand-logo' />
-        <span id='brand-text'>Archi Réseau</span>
+        <span id='brand-text'>Sparta Cam</span>
       </a>
       {roomName ? <span id='room-name'>{roomName}</span> : null}
       {roomName ? <CopyLink /> : null}

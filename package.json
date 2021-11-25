@@ -1,7 +1,7 @@
 {
   "name": "p2p.chat",
   "version": "0.2.8",
-  "description": "P2P Video Chat",
+  "description": "SpartaCam",
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --port 3001 --hot --inline --history-api-fallback",
